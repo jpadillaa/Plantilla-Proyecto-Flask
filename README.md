@@ -24,7 +24,8 @@ Realice las siguientes tareas para montar su ambiente de desarrollo.
     ```
 5. Edite el archivo `.env` en la raíz del proyecto. Agregue todas las variables para que la aplicación se conecte a su base de datos:
     - Debe definir HOST (endpoint de la BD), 
-    - DB (Nombre de la BD), DBUSER (Usuario de la BD), 
+    - DB (Nombre de la BD), 
+    - DBUSER (Usuario de la BD), 
     - PORT (Puerto de la BD default 5432), 
     - PW (Contraseña del usuario de la BD), 
     - SECRET (Contraseña de cifrado de Flask) y 
