@@ -1,10 +1,10 @@
 # Plantilla Proyecto Computación en Nube: Fundamentos y Arquitectura
 Plantilla Backend REST Python + Flask. 
 
-# API - Backend
+## API - Backend
 Este directorio corresponde al API REST (backend) del proyecto.
 
-# Tutorial Ambiente de Desarrollo
+## Tutorial Ambiente de Desarrollo
 Realice las siguientes tareas para montar su ambiente de desarrollo.
 
 1. En la carpeta del proyecto debe crear un ambiente virtual con la librería de `virtualenv` de python (previamente instalada). Llame el ambiente virtual `venv` para que sea ignorado por git.
