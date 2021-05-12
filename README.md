@@ -1,8 +1,11 @@
 # Plantilla Proyecto Computación en Nube: Fundamentos y Arquitectura
 Plantilla Backend REST Python + Flask. 
 
-## API - Backend
+## apirest
 Este directorio corresponde al API REST (backend) del proyecto.
+
+## tasks
+Este directorio corresponde a la capa de procesamiento asíncrono.
 
 ## Tutorial Ambiente de Desarrollo
 Realice las siguientes tareas para montar su ambiente de desarrollo.
@@ -15,22 +18,22 @@ Realice las siguientes tareas para montar su ambiente de desarrollo.
 
 4. Cree una base de datos en postgres (motor previamente instalado). Algunos comandos que  que le pueden ayudar a crer la BD son:
     ```sql
-    CREATE USER api;
-    CREATE DATABASE api OWNER api;
-    ALTER USER api WITH PASSWORD 'password';
+    CREATE USER apirest;
+    CREATE DATABASE api OWNER apirest;
+    ALTER USER apirest WITH PASSWORD 'password';
     ```
 5. Edite el archivo `.env` en la raíz del proyecto. Agregue todas las variables para que la aplicación se conecte a su base de datos. Debe definir HOST (endpoint de la BD), DB (Nombre de la BD), DBUSER (Usuario de la BD), PORT (Puerto de la BD default 5432), PW (Contraseña del usuario de la BD), SECRET (Contraseña de cifrado de Flask) y JWTSECRET (Contraseña de cifrado de JWT).
 
 6. Abra una nueva terminal escriba los siguientes comandos para correr el proyecto:  
     En linux:
     ```bash
-    $ export FLASK_APP=api
+    $ export FLASK_APP=apirest
     $ export FLASK_ENV=development
     $ flask run
     ```
     En Windows:
     ```Powershell
-    $env:FLASK_APP="api"
+    $env:FLASK_APP="apirest"
     $env:FLASK_ENV="development"
     flask run
     ```
