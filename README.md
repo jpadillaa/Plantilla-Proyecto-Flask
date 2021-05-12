@@ -30,7 +30,7 @@ Realice las siguientes tareas para montar su ambiente de desarrollo.
     ```
     En Windows:
     ```Powershell
-    set FLASK_APP="api"
-    set FLASK_ENV="development"
+    $env:FLASK_APP="api"
+    $env:FLASK_ENV="development"
     flask run
     ```
