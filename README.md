@@ -40,7 +40,7 @@ Realice las siguientes tareas para montar su ambiente de desarrollo.
     ```
     En Windows:
     ```Powershell
-    $ env:FLASK_APP="apirest"
-    $ env:FLASK_ENV="development"
-    $ flask run
+    > $env:FLASK_APP="apirest"
+    > $env:FLASK_ENV="development"
+    > flask run --host=0.0.0.0
     ```
