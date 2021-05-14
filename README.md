@@ -22,7 +22,7 @@ Realice las siguientes tareas para montar su ambiente de desarrollo.
     CREATE DATABASE api OWNER apirest;
     ALTER USER apirest WITH PASSWORD 'password';
     ```
-5. Edite el archivo `.env` en la raíz del proyecto. Agregue todas las variables para que la aplicación se conecte a su base de datos:
+5. Edite el archivo `.env` en la raíz del proyecto (recuerde que este archivo y el directorio instance están dentro del .gitignore por seguridad, después de clonar el proyecto cuando lo suba a su repositorio estos archivos serán omitidos en sus operaciones push). Agregue todas las variables para que la aplicación se conecte a su base de datos:
     - Debe definir **HOST** (endpoint de la BD), 
     - **DB** (Nombre de la BD), 
     - **DBUSER** (Usuario de la BD), 
